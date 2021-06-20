@@ -4,7 +4,7 @@ LaTeX Thesis format, Physic Department, USACH | Formato en LaTex para tesis del 
 
 **Estructura**
 
-Tiene la estructure sugerida por biblioteca:
+Tiene la estructura sugerida por biblioteca:
 
 <img src='https://github.com/chacoff/TesisFisicaUSACH/blob/main/readme/structure.JPG'>
 
