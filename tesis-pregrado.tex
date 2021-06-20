@@ -1,0 +1,45 @@
+\documentclass[]{tesis-pregrado}
+
+\keywords{AI; CNN; Deep Learning, Machine Learning}
+
+\begin{document}
+    \baselineskip 23pt
+    
+    % ----------- PORTADA Y CUBIERTAS --------------------------------
+    \thispagestyle{empty}
+    \include{chapters/cubierta}  % Portada 1
+    \include{chapters/cubierta1}  % portada 2 si hay fondos involucrados
+    \include{chapters/cubierta2}  % portada 3 después de la revisión
+    \makecopyright % si acaso será publicado en biblioteca
+    \include{chapters/dedicatoria}
+    \include{chapters/gracias}
+    
+    % ----------- RESUMEN Y TABLAS DE CONTENIDO ---------------------
+    \frontmatter
+    \pagestyle{scrplain}  % scrplain or scrheadings
+    
+    \include{chapters/abstract}
+    \tableofcontents        %% Indice general
+    \listoftables           %% Indice de tablas
+    \listoffigures          %% Indice de figuras
+    
+    % ----------- CAPITULOS DE LA TESIS --------------------------------
+    \mainmatter
+    \pagenumbering{arabic}
+    
+    \include{chapters/1-intro}
+    \include{chapters/2-preliminares}
+    \include{chapters/3-Implementacion}
+    \include{chapters/conclusion}
+    
+    % ----------- REFERENCIAS BIBLIOGRAFICAS --------------------------------
+    % \backmatter %Elimina la numeración
+    \bibliographystyle{chapters/apa-good}
+    \bibliography{chapters/referencias}  % referencias.bib
+
+    % ----------- ANEXOS ---------------------------------
+    \appendix
+    \addappheadtotoc %agregar Apéndice al índice. Si no tiene apéndices COMENTAR o BORRAR
+    % \noappendicestocpagenum %quitar número de páginas a los apéndices
+    \include{chapters/Apendice-1} % Manuales de Usuario
+\end{document}
