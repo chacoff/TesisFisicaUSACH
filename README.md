@@ -26,7 +26,7 @@ Varias variables han sido definidas y pueden ser utilizadas en todo el documento
 
 **Recomendación**
 
-Recomiendo editar el formato en línea, en [overleaf](https://www.overleaf.com), pero si desea trabajar localmente, 
+Recomiendo editar el formato en línea en [overleaf](https://www.overleaf.com), pero si desea trabajar localmente, 
 
 - [MiKteX](https://miktex.org/) >= 20.12
 - [Texmaker](https://www.xm1math.net/texmaker/index.html) >= 5.0.4
