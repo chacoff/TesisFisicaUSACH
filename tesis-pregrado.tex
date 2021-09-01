@@ -27,6 +27,7 @@
     \mainmatter
     \pagenumbering{arabic}
     
+    \setcitestyle{square}  % para las referencias con un número en parentesis de cuadro si se usa IEEEtran, % si se usa IEEEtranN, la referencia es escrita con autor y año
     \include{chapters/1-intro}
     \include{chapters/2-preliminares}
     \include{chapters/3-Implementacion}
@@ -34,7 +35,7 @@
     
     % ----------- REFERENCIAS BIBLIOGRAFICAS --------------------------------
     % \backmatter %Elimina la numeración
-    \bibliographystyle{chapters/apa-good}
+    \bibliographystyle{IEEEtran}  % chapters/apa-good, or IEEEtranN
     \bibliography{chapters/referencias}  % referencias.bib
 
     % ----------- ANEXOS ---------------------------------

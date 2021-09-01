@@ -138,7 +138,7 @@ right=25mm,
 
 %--------Bibliografia
 %\RequirePackage{apacite}
-\RequirePackage{natbib}
+\RequirePackage[numbers]{natbib}
 \RequirePackage[nottoc, notlof, notlot]{tocbibind} % Agregar referencias al índice
 \RequirePackage[fixlanguage]{babelbib}
 \selectbiblanguage{spanish}
